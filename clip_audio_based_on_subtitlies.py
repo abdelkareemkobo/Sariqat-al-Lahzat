@@ -7,7 +7,7 @@ from youtube_timestamps import clip_audio
 
 
 def clip_audio_based_on_subtitles():
-    audio_directory_path = "downloaded_youtube"  # path to the audio files
+    audio_directory_path = "downloaded_youtube/"  # path to the audio files
     output_directory = "cliped_audio/"
 
     csv_path = "timestamps/"
@@ -35,3 +35,4 @@ def clip_audio_based_on_subtitles():
 
             print(f"Clipped audio saved: {output_path}")
 
+clip_audio_based_on_subtitles()
